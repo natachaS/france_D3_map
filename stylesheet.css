@@ -1,0 +1,8 @@
+    .departement {
+        cursor: pointer;
+    }
+ 
+    .departement:hover {
+        stroke: white;
+        stroke-width: 1px;
+    }
