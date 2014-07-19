@@ -31,7 +31,11 @@
   
     // load all GeoJSON data
    
-  d3.json('http://natachaS.github.io/france_D3_map/departements.json', function(req, geojson) {
+  d3.json('http://natachaS.github.io/france_D3_map/departements.json', function(error, geojson) {
+    if (error) {
+      console.log(error);
+      return;
+    }
  
     // We bind a svg element for each GeoJSON entry
 
