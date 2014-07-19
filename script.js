@@ -1,5 +1,5 @@
 
-function() {
+(function() {
  
   var width = 600;
   var height = 400;
@@ -87,4 +87,4 @@ function() {
  
     };
  
-}();
+}());
