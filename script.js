@@ -31,7 +31,7 @@
   
     // load all GeoJSON data
    
-  d3.json('http://natachaS.github.io/france_D3_map/departements.json', function(error, geojson) {
+  d3.json('departements.json', function(error, geojson) {
     if (error) {
       console.log(error);
       return;
